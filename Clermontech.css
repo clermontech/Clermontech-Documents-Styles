@@ -330,3 +330,44 @@ pre {
         margin:0px auto;
     }
 }
+
+.invoice-title {
+    clear: both;
+    text-align: center;
+}
+
+.invoice-number {
+    font-size: 0.7em;
+}
+
+.address-us,
+.address-client {
+    display: block;
+}
+
+.address-us {
+    float: left;
+}
+
+.address-client {
+    float: right;
+}
+
+.address-us span,
+.address-client span {
+    display: block;
+}
+
+.address-name {
+    font-weight: bold;
+}
+
+.address-street {
+}
+
+.address-city {
+}
+
+.address-extra {
+    font-style: italic;
+}
