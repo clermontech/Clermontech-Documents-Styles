@@ -19,7 +19,9 @@
 }
 
 /* ------ re-definitions */
-
+body {
+  line-height: 1.2;
+}
 
 p {
   text-align: justify;
@@ -56,32 +58,36 @@ address {
 
 /* Invoice */
 .invoice-title {
-    clear: both;
-    text-align: center;
+  clear: both;
+  text-align: center;
 }
 
 .invoice-number {
-    font-size: 0.7em;
+  font-size: 0.7em;
+  text-transform: uppercase;
 }
 
 .address-us,
 .address-client {
+  display: block;
+  .address-title {
+    font-weight: bold;
+  }
+  span {
     display: block;
-    span {
-      display: block;
-    }
+  }
 }
 
 .address-us {
-    float: left;
+  float: left;
 }
 
 .address-client {
-    float: right;
+  float: right;
 }
 
 .address-name {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .address-street {
@@ -91,5 +97,5 @@ address {
 }
 
 .address-extra {
-    font-style: italic;
+  font-style: italic;
 }

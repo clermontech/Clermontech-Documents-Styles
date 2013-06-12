@@ -331,33 +331,6 @@ pre code, pre tt {
   body {
     width: 854px;
     margin: 0px auto; } }
-.invoice-title {
-  clear: both;
-  text-align: center; }
-
-.invoice-number {
-  font-size: 0.7em; }
-
-.address-us,
-.address-client {
-  display: block; }
-
-.address-us {
-  float: left; }
-
-.address-client {
-  float: right; }
-
-.address-us span,
-.address-client span {
-  display: block; }
-
-.address-name {
-  font-weight: bold; }
-
-.address-extra {
-  font-style: italic; }
-
 /*
   Clermontech styles the Sass way.
 
@@ -376,6 +349,9 @@ pre code, pre tt {
   src: url("fonts/neutraface-condensed-medium.otf"); }
 
 /* ------ re-definitions */
+body {
+  line-height: 1.2; }
+
 p {
   text-align: justify; }
 
@@ -406,11 +382,15 @@ address .fn {
   text-align: center; }
 
 .invoice-number {
-  font-size: 0.7em; }
+  font-size: 0.7em;
+  text-transform: uppercase; }
 
 .address-us,
 .address-client {
   display: block; }
+  .address-us .address-title,
+  .address-client .address-title {
+    font-weight: bold; }
   .address-us span,
   .address-client span {
     display: block; }
