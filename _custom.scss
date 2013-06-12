@@ -1,0 +1,95 @@
+/*
+  Clermontech styles the Sass way.
+
+  Define your custom styles here.
+
+  Author: @clermontech
+ */
+
+/* ------ fonts */
+@font-face {
+  font-family: Neutraface;
+  src: url("fonts/neutraface-condensed-light.otf");
+}
+
+@font-face {
+  font-family: Neutraface;
+  font-weight: bold;
+  src: url("fonts/neutraface-condensed-medium.otf");
+}
+
+/* ------ re-definitions */
+
+
+p {
+  text-align: justify;
+}
+
+address {
+  .fn { font-weight:bold; }
+  .street-address {}
+  .postal-code {}
+  .city {}
+}
+
+/* ------ classes */
+.right {
+  float: right;
+  padding: 20px 0 20px 20px;
+}
+
+.left {
+  float: left;
+  padding: 20px 20px 20px 0;
+}
+
+.date {
+  padding: 20px 0;
+  clear: both;
+  text-align: right;
+}
+
+.signature {
+  margin-top: 30px;
+  text-align: right;
+}
+
+/* Invoice */
+.invoice-title {
+    clear: both;
+    text-align: center;
+}
+
+.invoice-number {
+    font-size: 0.7em;
+}
+
+.address-us,
+.address-client {
+    display: block;
+    span {
+      display: block;
+    }
+}
+
+.address-us {
+    float: left;
+}
+
+.address-client {
+    float: right;
+}
+
+.address-name {
+    font-weight: bold;
+}
+
+.address-street {
+}
+
+.address-city {
+}
+
+.address-extra {
+    font-style: italic;
+}
