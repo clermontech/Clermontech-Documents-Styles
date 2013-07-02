@@ -6,16 +6,18 @@
   Author: @clermontech
  */
 
-/* ------ fonts */
-@font-face {
-  font-family: Neutraface;
-  src: url("fonts/neutraface-condensed-light.otf");
-}
-
-@font-face {
-  font-family: Neutraface;
-  font-weight: bold;
-  src: url("fonts/neutraface-condensed-medium.otf");
+// /* ------ fonts */
+@page {
+  margin: 2cm;
+  padding: 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  @top-left {
+    content: "Clermontech";
+  }
+  @bottom-right {
+    content: "Page " counter(page) " / " counter(pages);
+  }
 }
 
 /* ------ re-definitions */
