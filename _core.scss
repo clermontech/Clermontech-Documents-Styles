@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px 0 10px;
   padding: 0;
   font-weight: bold;
-  font-family:Neutraface;
+  font-family: 'Neutraface Condensed';
   -webkit-font-smoothing: antialiased;
   cursor: text;
   position: relative; }
@@ -282,15 +282,11 @@ pre {
   line-height: 19px;
   overflow: auto;
   padding: 6px 10px;
-  border-radius: 3px; }
-  pre code, pre tt {
-    background-color: transparent;
-    border: none; }
-
-@media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:0px auto;
-    }
+  border-radius: 3px;
 }
+pre code, pre tt {
+    background-color: transparent;
+    border: none; 
+}
+
 
